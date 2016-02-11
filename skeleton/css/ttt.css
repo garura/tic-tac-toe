@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 100px;
+}
+
+.ttt {
+  width: 480px;
+  height: 480px;
+  border: 5px solid black;
+  margin: auto;
+}
+
+.board-square {
+  float: left;
+  border: 5px solid black;
+  height : 150px;
+  width: 150px;
+  background-color: grey;
+}
+
+.board-row {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  width: 510px;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+.clicked {
+  background-color: white;
+}
+
+.clicked p {
+  position: relative;
+  font-size: 100px;
+
+  text-align: center;
+  margin-top: 18px;
+}
+
+.ttt:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.win-msg {
+  text-align: center;
+  font-size: 75px;
+}
